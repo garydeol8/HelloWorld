@@ -3,10 +3,15 @@ import React, { Component } from "react";
 class Counter extends Component {
   state = {
     count: 0
-  };
+    };
 
-  handleIncrement() {
-    console.log("Increment clicked.");
+    //constructor() {
+    //    super();
+    //    this.handleIncrement = this.handleIncrement.bind(this);
+    //}
+
+  handleIncrement = () => {
+    console.log("Increment clicked.", this);
   }
 
   render() {
