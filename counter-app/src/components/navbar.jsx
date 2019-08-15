@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 
 // Stateless Functional component
 const NavBar = (props) => {
+    console.log('NavBar render called.');
     return (
         <nav className="navbar navbar-light bg-light">
             <a className="navbar-brand" href="#">
